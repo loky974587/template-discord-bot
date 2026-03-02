@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "Template minimal pour bot Discord (discord.js v14)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "cross-env DEBUG=true node index.js",
+    "lint": "eslint .",
+    "create:command": "node scripts/create-command.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.23.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "9.26.0"
+  }
+}
